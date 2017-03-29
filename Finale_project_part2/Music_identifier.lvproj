@@ -103,11 +103,11 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="subFunctions" Type="Folder">
 			<Item Name="Error_2layerOutX_1layerOutX.vi" Type="VI" URL="../Error_2layerOutX_1layerOutX.vi"/>
-			<Item Name="SumError_2layerOutX_1layerOutX.vi" Type="VI" URL="../SumError_2layerOutX_1layerOutX.vi"/>
 		</Item>
 		<Item Name="1layer_Neuron.vi" Type="VI" URL="../1layer_Neuron.vi"/>
-		<Item Name="Update_2layer_Wx.vi" Type="VI" URL="../Update_2layer_Wx.vi"/>
 		<Item Name="2layer_Neuron.vi" Type="VI" URL="../2layer_Neuron.vi"/>
+		<Item Name="Update_2layer_Wx.vi" Type="VI" URL="../Update_2layer_Wx.vi"/>
+		<Item Name="Update_1layer_Wx.vi" Type="VI" URL="../Update_1layer_Wx.vi"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
