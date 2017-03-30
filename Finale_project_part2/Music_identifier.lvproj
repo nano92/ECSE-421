@@ -1563,6 +1563,11 @@ AddOutputFilter chunkFilter
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
 		</Item>
+		<Item Name="FSM.vi" Type="VI" URL="../FSM.vi"/>
+		<Item Name="1layer_Neuron.lvtest" Type="TestItem" URL="../1layer_Neuron.lvtest">
+			<Property Name="utf.test.bind" Type="Str">1layer_Neuron.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">C8D19562-4A80-FF58-F80D-C868D02E47C1</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
