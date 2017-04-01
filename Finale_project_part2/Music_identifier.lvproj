@@ -105,9 +105,14 @@ AddOutputFilter chunkFilter
 			<Item Name="Error_2layerOutX_1layerOutX.vi" Type="VI" URL="../Error_2layerOutX_1layerOutX.vi"/>
 		</Item>
 		<Item Name="1layer_Neuron.vi" Type="VI" URL="../1layer_Neuron.vi"/>
+		<Item Name="1layer_Neuron.lvtest" Type="TestItem" URL="../1layer_Neuron.lvtest">
+			<Property Name="utf.test.bind" Type="Str">1layer_Neuron.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">C8D19562-4A80-FF58-F80D-C868D02E47C1</Property>
+		</Item>
 		<Item Name="2layer_Neuron.vi" Type="VI" URL="../2layer_Neuron.vi"/>
 		<Item Name="Update_2layer_Wx.vi" Type="VI" URL="../Update_2layer_Wx.vi"/>
 		<Item Name="Update_1layer_Wx.vi" Type="VI" URL="../Update_1layer_Wx.vi"/>
+		<Item Name="FSM.vi" Type="VI" URL="../FSM.vi"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -1562,11 +1567,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
-		</Item>
-		<Item Name="FSM.vi" Type="VI" URL="../FSM.vi"/>
-		<Item Name="1layer_Neuron.lvtest" Type="TestItem" URL="../1layer_Neuron.lvtest">
-			<Property Name="utf.test.bind" Type="Str">1layer_Neuron.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">C8D19562-4A80-FF58-F80D-C868D02E47C1</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
