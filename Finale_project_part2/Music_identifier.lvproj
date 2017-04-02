@@ -103,6 +103,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="subFunctions" Type="Folder">
 			<Item Name="Error_2layerOutX_1layerOutX.vi" Type="VI" URL="../Error_2layerOutX_1layerOutX.vi"/>
+			<Item Name="Get_Weight_out_ox_elemetns_at_indexX.vi" Type="VI" URL="../Get_Weight_out_ox_elemetns_at_indexX.vi"/>
 		</Item>
 		<Item Name="1layer_Neuron.vi" Type="VI" URL="../1layer_Neuron.vi"/>
 		<Item Name="1layer_Neuron.lvtest" Type="TestItem" URL="../1layer_Neuron.lvtest">
