@@ -102,6 +102,8 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="subFunctions" Type="Folder">
+			<Item Name="Update_2layer_Wx.vi" Type="VI" URL="../Update_2layer_Wx.vi"/>
+			<Item Name="Update_1layer_Wx.vi" Type="VI" URL="../Update_1layer_Wx.vi"/>
 			<Item Name="Error_2layerOutX_1layerOutX.vi" Type="VI" URL="../Error_2layerOutX_1layerOutX.vi"/>
 			<Item Name="Get_Weight_out_ox_elemetns_at_indexX.vi" Type="VI" URL="../Get_Weight_out_ox_elemetns_at_indexX.vi"/>
 		</Item>
@@ -111,9 +113,10 @@ AddOutputFilter chunkFilter
 			<Property Name="utf.vector.test.bind" Type="Str">C8D19562-4A80-FF58-F80D-C868D02E47C1</Property>
 		</Item>
 		<Item Name="2layer_Neuron.vi" Type="VI" URL="../2layer_Neuron.vi"/>
-		<Item Name="Update_2layer_Wx.vi" Type="VI" URL="../Update_2layer_Wx.vi"/>
-		<Item Name="Update_1layer_Wx.vi" Type="VI" URL="../Update_1layer_Wx.vi"/>
+		<Item Name="BN_outputLayer.vi" Type="VI" URL="../BN_outputLayer.vi"/>
+		<Item Name="BN_hiddenLayer.vi" Type="VI" URL="../BN_hiddenLayer.vi"/>
 		<Item Name="FSM.vi" Type="VI" URL="../FSM.vi"/>
+		<Item Name="FN.vi" Type="VI" URL="../FN.vi"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -1569,7 +1572,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
 		</Item>
-		<Item Name="FN.vi" Type="VI" URL="../FN.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
