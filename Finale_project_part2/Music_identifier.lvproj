@@ -1573,6 +1573,7 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="frequency measurement (array).vi" Type="VI" URL="../frequency measurement (array).vi"/>
+		<Item Name="hidden_error.vi" Type="VI" URL="../hidden_error.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="myRIO v1.0 Block Write Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Block Write Configuration.vi"/>
@@ -1631,7 +1632,6 @@ AddOutputFilter chunkFilter
 				<Item Name="myRIO v1.1 AudioIn Block Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AudioIn Block/typedefs/myRIO v1.1 AudioIn Block Channels Enum.ctl"/>
 				<Item Name="myRIO v1.1 Open Throughput AudioIn (N Samples).vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AudioIn Block/vis/myRIO v1.1 Open Throughput AudioIn (N Samples).vi"/>
 				<Item Name="Is FPGA Ref Available.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Is FPGA Ref Available.vi"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
