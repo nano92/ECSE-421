@@ -117,6 +117,8 @@ AddOutputFilter chunkFilter
 		<Item Name="BN_hiddenLayer.vi" Type="VI" URL="../BN_hiddenLayer.vi"/>
 		<Item Name="FSM_new.vi" Type="VI" URL="../FSM_new.vi"/>
 		<Item Name="FN.vi" Type="VI" URL="../FN.vi"/>
+		<Item Name="frequency measurement (array).vi" Type="VI" URL="../frequency measurement (array).vi"/>
+		<Item Name="hidden_error.vi" Type="VI" URL="../hidden_error.vi"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -1572,8 +1574,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
 		</Item>
-		<Item Name="frequency measurement (array).vi" Type="VI" URL="../frequency measurement (array).vi"/>
-		<Item Name="hidden_error.vi" Type="VI" URL="../hidden_error.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="myRIO v1.0 Block Write Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Block Write Configuration.vi"/>
