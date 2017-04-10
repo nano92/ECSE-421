@@ -1575,6 +1575,7 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="result map.vi" Type="VI" URL="../result map.vi"/>
+		<Item Name="different random number.vi" Type="VI" URL="../../FPGA applied/different random number.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="myRIO v1.0 Block Write Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Block Write Configuration.vi"/>
