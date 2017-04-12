@@ -113,8 +113,8 @@ AddOutputFilter chunkFilter
 			<Property Name="utf.vector.test.bind" Type="Str">C8D19562-4A80-FF58-F80D-C868D02E47C1</Property>
 		</Item>
 		<Item Name="2layer_Neuron.vi" Type="VI" URL="../2layer_Neuron.vi"/>
-		<Item Name="BN_outputLayer.vi" Type="VI" URL="../BN_outputLayer.vi"/>
-		<Item Name="BN_hiddenLayer.vi" Type="VI" URL="../BN_hiddenLayer.vi"/>
+		<Item Name="BP_outputLayer.vi" Type="VI" URL="../BP_outputLayer.vi"/>
+		<Item Name="BP_hiddenLayer.vi" Type="VI" URL="../BP_hiddenLayer.vi"/>
 		<Item Name="FSM_new.vi" Type="VI" URL="../FSM_new.vi"/>
 		<Item Name="FN.vi" Type="VI" URL="../FN.vi"/>
 		<Item Name="frequency measurement (array).vi" Type="VI" URL="../frequency measurement (array).vi"/>
@@ -1576,6 +1576,14 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="result map.vi" Type="VI" URL="../result map.vi"/>
 		<Item Name="different random number.vi" Type="VI" URL="../../FPGA applied/different random number.vi"/>
+		<Item Name="BP_outputLayer.lvtest" Type="TestItem" URL="../BP_outputLayer.lvtest">
+			<Property Name="utf.test.bind" Type="Str"></Property>
+			<Property Name="utf.vector.test.bind" Type="Str">E2EE0873-5F4D-755B-A34E-DBCAFF604249</Property>
+		</Item>
+		<Item Name="BP_hiddenLayer.lvtest" Type="TestItem" URL="../BP_hiddenLayer.lvtest">
+			<Property Name="utf.test.bind" Type="Str">BP_hiddenLayer.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">EE47A8A2-E15E-7E70-8824-A485141A2FD3</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="myRIO v1.0 Block Write Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Block Write Configuration.vi"/>
